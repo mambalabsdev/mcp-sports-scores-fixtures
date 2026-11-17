@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-sports-scores-fixtures": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-sports-scores-fixtures"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

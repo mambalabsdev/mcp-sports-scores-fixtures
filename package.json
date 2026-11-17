@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-sports-scores-fixtures",
+  "version": "1.0.0",
+  "description": "MCP server for Sports Scores and Fixtures. Scores, live status, and fixtures by date for NBA, NFL, NHL, MLB, soccer, and UFC. Runs on Apify.",
+  "type": "module",
+  "bin": {
+    "mcp-sports-scores-fixtures": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sports",
+    "scores",
+    "nba",
+    "nfl",
+    "soccer",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/sports-scores-fixtures",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-sports-scores-fixtures"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-sports-scores-fixtures"
+}
