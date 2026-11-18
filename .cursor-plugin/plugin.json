@@ -1,7 +1,7 @@
 {
   "name": "mcp-sports-scores-fixtures",
   "displayName": "Sports Scores and Fixtures",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Sports Scores and Fixtures. Scores, live status, and fixtures by date for NBA, NFL, NHL, MLB, soccer, and UFC. Runs on Apify.",
   "author": {
     "name": "Mamba Labs",
